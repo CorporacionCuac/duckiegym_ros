@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import rospy
 from sensor_msgs.msg import CompressedImage, CameraInfo
-from duckietown_msgs.msg import Twist2DStamped, WheelsCmdStamped
+from duckiegym_ros.msg import Twist2DStamped, WheelsCmdStamped
 import numpy as np
 import os
 import cv2
